@@ -24,13 +24,24 @@ This project is a car search application that retrieves car data from RapidAPI, 
    npm install
    ```
 
-3. Start the project:
+3. **Update RapidAPI Keys:**
+
+   - Open the `.env` file and replace the placeholders with your RapidAPI key and host:
+
+     ```dotenv
+     VITE_APP_KEY=your_rapidapi_key
+     VITE_APP_HOST=your_rapidapi_host
+     ```
+
+   - Replace `your_rapidapi_key` and `your_rapidapi_host` with the API key and host information from your RapidAPI account.
+
+4. Start the project:
 
    ```bash
    npm start
    ```
 
-4. Open your browser and go to [http://localhost:3000](http://localhost:3000) to view the application.
+5. Open your browser and go to [http://localhost:3000](http://localhost:3000) to view the application.
 
 ## Features
 
